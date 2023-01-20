@@ -1,0 +1,23 @@
+.NUnotices {
+    margin: 5px 20px 5px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.NUnoticeSource {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    width: 80%;
+    margin: 15px 250px 0px 0px;
+    max-width: 100%;
+}
+
+.NUnoticeSource iframe {
+    border-radius: 5px;
+    margin: -250px -540px -300px 0px;
+    height: 1950px;
+    width: 100%;
+}

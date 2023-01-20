@@ -1,0 +1,20 @@
+.winningPrizes {
+    margin: 5px 20px 5px 20px;
+}
+
+.winningPrizesSource {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin: 15px auto;
+    max-width: 100%;
+}
+
+.winningPrizesSource iframe {
+    border-radius: 5px;
+    margin-top: -350px;
+    height: 3580px;
+    width: 100%;
+    transform: scale(0.95)
+}

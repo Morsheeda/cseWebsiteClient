@@ -1,0 +1,185 @@
+.topNavBar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.navbar{
+    background-color: #ffffffe6 !important;
+}
+
+
+.navBartopLeft{
+    flex: 6 !important;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navBartopLeftImg{
+    flex: 1;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navBartopLogo{
+    width: 76px;
+    cursor: pointer;
+    border-radius: 5%;
+}
+
+.navBartopLeftImgBx{
+    background-image: url("../../resources/images/Logo.png" );
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: 0px 10px 0px 15px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    transition: transform 1.5s ;
+}
+
+.navBartopLeftImgBx:hover{
+    background-color: #7aae3a;
+    /* background-image: url("../../resources/images/ECE Logo WT Tr.png" ); */
+    transform: scale(1.15);
+    
+}
+
+.siteHeading{
+    flex: 11;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: transform 1.5s ;
+    cursor: pointer;
+}
+
+.siteHeading:hover{
+    transform:translate(30px);
+}
+
+.siteHeading h3{
+    font-family: 'Ubuntu', sans-serif;
+    /* color: #E66702; */
+    color: #7aae3a;
+    font-size: 20px;
+    letter-spacing: 1px;
+    /* line-height: 18px; */
+}
+
+.siteHeading h4{
+    font-family: 'Ubuntu', sans-serif;
+    /* color: #1a1818; */
+    color: #0d7435;
+    font-size: 18px;
+    line-height: 5px;
+    text-transform: uppercase;
+    word-spacing: 5px;
+    letter-spacing: 3px;
+}
+
+.navBartopRight{
+    flex: 6 !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 20px;
+}
+
+.navBartopList{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.menuTitle {
+    margin: 0px -8px 0px -5px !important;
+}
+
+/* .navBartopListItem::first-letter{
+    font-size: 16px;
+  } */
+.navBartopListItem{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform:uppercase;
+    cursor: pointer;
+    color: #444;
+    padding: 3px 5px 3px 5px;
+    border-radius: 3px;
+    transition: transform 0.5s ;
+}
+.navBartopListItem::first-letter{
+    font-size: 18px;
+    /* color: #E66702; */
+  }
+
+.navBartopListItem:hover{
+    color: white;
+    background-color: #7aae3a;
+    transform:  translateY(5px);
+}
+
+.navBartopSearchIcon{
+    font-size: 16px;
+    margin-left: 5px;
+    padding: 10px;
+    border-radius: 50%;
+    color: #666;
+    cursor: pointer;
+    transition: transform 0.5s ;
+}
+
+.navBartopSearchIcon:hover{
+    color: white;
+    transform: scale(1.2);
+    /* background-color: #e66903d3; */
+    background-color: #7aae3a;
+}
+
+.dropDownMenu{
+    box-shadow: 1px 1px 10px gray !important;
+    border: none !important;
+    background-color: #ffffffe6 !important;
+    font-size: 13px !important;
+    border-radius: 0px ;
+}
+
+.dropDownMenuItem {
+    transition: transform 0.6s ;
+}
+.dropDownMenuItem:hover {
+    color: white !important;
+    background-color: #7aae3a !important;
+    transform: translate(10px, 2px);
+}
+
+.iEMSbuttonContainer{
+    
+    /* margin-top: 5px; */
+}
+
+.iEMSbutton{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    cursor: pointer;
+    padding: 5px 11px 4px 11px;
+    /* border: 2px solid #7aae3a ; */
+    background: #7aae3a;
+    color: #fff !important;
+    border-radius: 15px;
+    /* transform: scale(1.1); */
+    transition: transform 0.5s;
+}
+
+.iEMSbuttonContainer:hover .iEMSbutton{
+    /* color: #7aae3a !important; */
+    background: #E66702;
+    transform:  translateY(5px);
+}

@@ -1,0 +1,115 @@
+.write {
+  /* padding-top: 50px; */
+  box-sizing: border-box;
+  height: 5000px;
+}
+
+.writeImg {
+  margin: 0 0 20px 150px;
+  width: 73vw;
+  height: 250px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  object-fit: cover;
+}
+
+.writeForm {
+  position: relative;
+  margin-left: 100px;
+  padding-bottom: 20px;
+}
+
+.writeSubmit {
+  position: fixed;
+  top: 160px;
+  right: 50px;
+  color: white;
+  background: #0d7435;
+  /* box-shadow: 0.5px 0.5px 10px gray; */
+  box-shadow: var(--Box-shadow);
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.writeSubmit:hover {
+  color: #0d7435;
+  background-color: white;
+  padding: 8px;
+  /* box-shadow: 0 4px 15px #019b53; */
+  border: 2px solid #0d7435;
+}
+
+
+.writeFormGroup {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+
+
+.fileInput {
+  display: none;
+}
+
+.writeIcon {
+  width: 40px;
+  height: 40px;
+  /* border: 1px solid; */
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  color: #797676;
+  cursor: pointer;
+  box-shadow: var(--Box-shadow);
+  background-color: #ffffff;
+}
+
+.writeIcon:hover {
+  color: white;
+  background-color: #7aae3a;
+}
+
+.writeInput {
+  font-size: 30px;
+  border: none;
+  padding: 20px;
+  width: 73vw;
+  margin: 0px 10px;
+  border-radius: 5px;
+  /* box-shadow: 0.5px 0.5px 10px gray; */
+  box-shadow: var(--Box-shadow);
+  background-color: #ffffff;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.writeInput::placeholder {
+  color: #adadad;
+  font-weight: 400;
+}
+
+.writeInput:focus {
+  outline-style: none;
+}
+
+.textEditor {
+  margin-left: 50px;
+  width: 73vw;
+  box-shadow: var(--Box-shadow);
+  background-color: #ffffff;
+}
+
+.writeText {
+  width: 70vw;
+  height: 100vh;
+  font-family: inherit;
+  font-size: 25px;
+  box-sizing: border-box;
+  box-shadow: var(--Box-shadow);
+  background-color: #ffffff;
+}

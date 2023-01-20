@@ -1,0 +1,85 @@
+.footer{
+    display: flex;
+    background-color: black;
+    color: white;
+    align-items:center;
+    height: 60px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    font-size: 17px;
+    padding-top: 10px;
+    margin-top: 100px;
+    z-index: 99999;
+    overflow: hidden;
+}
+
+
+.footerLeft{
+    flex: 7;
+    text-align: center;
+}
+
+.footerLeftLink:hover{
+    color: #7aae3a !important;
+}
+
+
+.footerMiddle{
+    flex: 2;
+    background-image: url("../../resources/images/ECE Logo WT Tr.png" );
+    background-position: center;
+    background-size: 60%;
+    background-repeat: no-repeat;
+    width: 80%;
+    height: 180%;
+    padding: 0px 0px;
+    margin: -8px 0px 0px 0px;
+    border-radius: 5%;
+    transition: transform 1.5s ;
+}
+
+.footerMiddle:hover{
+    /* background-color: #7aae3a; */
+    /* background-image: url("../../resources/images/ECE Logo Tr.png" ); */
+    transform: scale(1.5);
+    
+}
+
+.footerRight{
+    flex: 3;
+    text-align: center;
+}
+
+.footerRight p{
+    line-height: 10px;
+}
+
+.footerRight p a{
+    text-decoration: none;
+    color: #7aae3a !important;
+    /* margin-top: -15px; */
+    margin: 0px 5px 0px 5px;
+    margin-bottom: -15px;
+    padding: 5px 5px 2px 5px;
+    display: inline-block;
+    height: 20px;
+    transition: transform 0.6s;
+    cursor: pointer !important;
+}
+
+.footerRight p a:hover{
+    background-color: #0d7435;
+    color: white !important;
+    border-radius: 2px;
+    margin: 0px 5px 0px 5px;
+    transform: scale(1.05);
+}
+.copyright{
+    color: red;
+    margin: 0px 5px ;
+}
+
+.footerHeartIcon{
+    color: red;
+    margin: 0px 5px;
+}
+

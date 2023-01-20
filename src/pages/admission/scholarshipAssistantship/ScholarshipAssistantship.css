@@ -1,0 +1,24 @@
+.scholarshipAssistantship {
+    margin: 5px 20px 5px 20px;
+    width: 60%;
+    height: 80vh;
+    margin: auto;
+    /* border: 2px solid red; */
+}
+
+.scholarshipAssistantshipSource {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin: 15px auto;
+    max-width: 100%;
+}
+
+.scholarshipAssistantshipSource iframe {
+    border-radius: 5px;
+    margin-top: -400px;
+    /* margin-bottom: -450px; */
+    height: 800px;
+    width: 100%;
+}

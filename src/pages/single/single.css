@@ -1,0 +1,23 @@
+.single {
+    display: flex;
+}
+
+.singlePostInSingle {
+    flex: 9
+}
+
+.sidebarInSingle {
+    flex: 3;
+    padding-right: 70px;
+    background-color: #ffffff00;
+}
+
+.insideOfSidebarInSingle {
+    position: fixed;
+    margin: 20px;
+    height: fit-content;
+    width: fit-content;
+    box-sizing: border-box;
+    background-color: #ffffff00;
+    z-index: 0;
+}

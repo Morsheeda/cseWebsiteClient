@@ -1,0 +1,151 @@
+.singlePost {
+  flex: 9;
+  margin: 20px 0px 20px 20px;
+  border-radius: 5px;
+  box-shadow: var(--Box-shadow);
+  background-color: #ffffff;
+}
+
+.singlePostWrapper {
+  padding: 30px 30px 40px 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.singlePostImg {
+  width: 100%;
+  height: 300px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  object-fit: cover;
+}
+
+.singlePostTitle {
+  text-align: center;
+  margin: 10px;
+  font-family: "Lora", serif;
+  font-size: 30px;
+  color: #222222;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.singlePostTitleInput {
+  margin: 10px;
+  font-family: "Lora", serif;
+  font-size: 28px;
+  text-align: center;
+  border: none;
+  color: gray;
+  border-bottom: 1px solid lightgray;
+}
+
+.singlePostTitleInput:focus {
+  outline: none;
+}
+
+.singlePostEdit {
+    float: right;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.singlePostIcon {
+    margin-left: 10px;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: transform 0.5s;
+}
+
+.singlePostIcon:first-child {
+  color: #019b53;
+}
+
+.singlePostIcon:first-child:hover{
+  color: white;
+  background-color:#019b53;
+  transform: scale(1.2);
+}
+
+.singlePostIcon:last-child {
+  color: tomato;
+}
+
+.singlePostIcon:last-child:hover{
+  color: white;
+  background-color: tomato;
+  transform: scale(1.2);
+}
+
+.singlePostInfo {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  font-family: 'Ubuntu', sans-serif;
+  color:#4a545f;
+}
+
+.singlePostAuthor{
+  transition: transform 0.5s;
+  font-size: 16px;
+  padding: 2px 5px 5px 5px;
+  border-radius: 3px;
+  margin-left: 3px;
+  display: inline-block;
+}
+
+.singlePostAuthor:hover{
+  color: white;
+  transform: scale(1.04);
+  background-color: #7aae3a;
+}
+
+.singlePostDate{
+  font-style: italic;
+}
+
+.singlePostDesc {
+  color: #666;
+  font-size: 18px;
+  line-height: 25px;
+  font-family: "Varela Round", sans-serif;
+  text-align: justify;
+}
+
+.singlePostDesc::first-letter {
+  margin-left: 20px;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.singlePostDescInput {
+  height: 100vh;
+  border: none;
+  color: #666;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.singlePostDescInput:focus {
+  outline: none;
+}
+.singlePostButton {
+  width: 10vw;
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 18px;
+  color: white;
+  background-color: #019b53;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  align-self: flex-end;
+}
+
+.singlePostButton:hover {
+  border: 2px solid #019b53;
+  color: #019b53;
+  padding: 8px;
+  background: rgba(255, 255, 255, 0.5);
+}

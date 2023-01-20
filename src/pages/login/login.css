@@ -1,0 +1,94 @@
+.login {
+  height: calc(100vh - 50px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)),
+    url("https://images.pexels.com/photos/768473/pexels-photo-768473.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+  background-size: cover;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+
+
+.loginForm {
+  width: 350px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  border-radius: 5px;
+  background: rgba(0, 0, 0, 0.15);
+}
+
+.loginTitle {
+  margin-bottom: 10px;
+  color: black;
+  /* text-shadow: 0.5px 0.5px 1px gray; */
+  font-size: 50px;
+  align-self: center;
+}
+
+.loginForm>label {
+  margin: 10px 0;
+  font-size: 20px;
+}
+
+.loginInput {
+  font-family: 'Ubuntu', sans-serif;
+  padding: 10px;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.loginInput:focus {
+  outline: none;
+}
+
+.loginButton {
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 18px;
+  color: white;
+  background-color: #0d7435;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.loginButton:hover {
+  border: 2px solid #0d7435;
+  color: #0d7435;
+  padding: 8px;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.loginButton:disabled {
+  cursor: not-allowed;
+  background-color: rgb(252, 173, 173);
+}
+
+.loginRegisterButton {
+  position: absolute;
+  width: 90px;
+  top: 130px;
+  right: 60px;
+  padding: 10px;
+  font-size: 18px;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  background-color: #0d7435;
+  cursor: pointer;
+}
+
+.loginRegisterButton:hover {
+  border: 2px solid #0d7435;
+  color: #0d7435;
+  padding: 8px;
+  background: rgba(255, 255, 255, 0.5);
+}

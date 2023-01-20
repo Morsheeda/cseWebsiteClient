@@ -1,0 +1,22 @@
+.tuitionFees {
+    margin: 5px 20px 5px 20px;
+    width: 60%;
+    margin: auto;
+}
+
+.tuitionFeesSource {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin: 15px auto;
+    max-width: 100%;
+}
+
+.tuitionFeesSource iframe {
+    margin-top: -400px;
+    /* margin-right: -900px; */
+    /* margin-bottom: -500px; */
+    height: 2100px;
+    width: 100%;
+}

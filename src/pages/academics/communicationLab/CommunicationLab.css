@@ -1,0 +1,26 @@
+.communicationLab {
+    margin: 5px 20px 5px 20px;
+}
+
+.communicationLabTitle{
+    text-align: center;
+    color: #e66702;   
+    border-bottom: 1px solid #e66702;
+    margin: 100px 130px 0px 130px;
+}
+.communicationLabSource {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin: 15px auto;
+    max-width: 100%;
+}
+
+.communicationLabSource iframe {
+    border-radius: 5px;
+    margin-top: -2850px;
+    margin-bottom: -60px;
+    height: 5650px;
+    width: 100%;
+}

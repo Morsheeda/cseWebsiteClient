@@ -1,0 +1,99 @@
+.aboutThisWebsite {
+    /* margin: 5px 20px 5px 20px; */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.aboutContainer {
+    width: 98% !important;
+    height: 80vh;
+    margin: 10px 20px 10px 10px;
+    padding: 20px 10px 10px 20px;
+    box-shadow: 1px 1px 10px gray;
+    border-radius: 5px;
+}
+
+.aboutDescTitle{
+    margin: 10px 0px 10px -10px;
+    padding: 10px 0px 10px 0px;
+    color: #000;
+    background-image: linear-gradient(90deg, #7aae3a, #E66702, #7aae3a);
+    background-position: left bottom;
+    background-position-x: 20px;
+    background-size: 97.5% 2px;
+    background-repeat: no-repeat;
+    font-size: 25px;
+    text-transform: capitalize;
+    font-weight: 400;    
+}
+
+.aboutDiv {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    height: 85%;
+}
+
+.nameContainer {
+    flex: 5;
+    margin: 10px 20px 10px 10px;
+    padding: 20px 10px 10px 20px;
+    box-shadow: 1px 1px 10px gray;
+    border-radius: 5px;
+    transition: all 1s;
+    height: 65%;
+}
+
+.nameContainer:hover{
+    box-shadow: 1px 1px 20px #7aae3a;
+    border-radius: 50px;
+}
+.nameContainer-1:hover{
+    transform: rotate(8deg);
+}
+.nameContainer-2:hover{
+    transform: rotate(-8deg);
+}
+
+.aboutThisWebsiteTitle {
+    margin: 10px 0px 10px 10px;
+    padding: 10px 0px 10px 10px;
+    color: #7aae3a;
+    background-image: linear-gradient(90deg, #7aae3a, #E66702, #7aae3a);
+    background-position: left bottom;
+    background-position-x: 20px;
+    background-size: 94% 2px;
+    background-repeat: no-repeat;
+    font-size: 30px;
+    text-transform: capitalize;
+    font-weight: 600;
+
+}
+
+.aboutThisWebsiteName {}
+
+.aboutThisWebsiteDesc {
+    color: #3f3f3f;
+    font-size: 17px;
+
+}
+
+.aboutThisWebsiteSource {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin: 15px auto;
+    max-width: 100%;
+}
+
+.aboutThisWebsiteSource iframe {
+    border-radius: 5px;
+    margin-top: -200px;
+    height: 729px;
+    width: 100%;
+    transform: scale(0.95)
+}

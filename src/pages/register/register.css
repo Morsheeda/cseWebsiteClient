@@ -1,0 +1,150 @@
+.register {
+  height: calc(100vh - 50px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)),
+    url("https://images.pexels.com/photos/317355/pexels-photo-317355.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-size: cover;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+
+.registerForm {
+  width: 410px;
+  margin-top: 0px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 5px;
+  background: #00000026;
+}
+
+.registerTitle {
+  margin-bottom: 10px;
+  color: black;
+  /* text-shadow: 0.5px 0.5px 1px gray; */
+  font-size: 50px;
+  align-self: center;
+}
+
+.regInputItem {
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.regInputItem>label {
+  margin: 10px 0px 10px 0px;
+}
+
+.regInputItem>select {
+  /* width: 260px; */
+}
+
+.regInputItem > select > option {
+  border: none;
+}
+
+
+
+.registerInput {
+  width: 240px;
+  font-family: 'Ubuntu', sans-serif;
+  padding: 10px;
+  background-color: white;
+  border: none;
+  border-radius: 3px;
+  font-size: 15px;
+}
+
+.registerInput:focus {
+  outline: none;
+}
+
+.regInputPP {
+
+  font-size: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.registerIcon {
+  margin-left: 20px;
+  width: 40px;
+  height: 40px;
+  /* border: 1px solid; */
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  color: #222222;
+  cursor: pointer;
+  border: 2px solid #ffffff00;
+}
+
+.registerIcon:hover {
+  color: white;
+  border: 2px solid #3a3030d2;
+}
+
+.registerPP {
+  width: 70px;
+  height: 90px;
+  margin-left: 50px;
+  margin-top: 5px;
+  border-radius: 1px;
+  border: 1px solid #00000000;
+}
+
+.registerPP:hover {
+  border: 1px solid #665555d2;
+}
+
+.registerButton {
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 18px;
+  color: white;
+  background-color: #0d7435;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: var(--Box-shadow);
+}
+
+.registerButton:hover {
+  border: 2px solid #0d7435;
+  color: #0d7435;
+  padding: 8px;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+
+.registerLoginButton {
+  position: absolute;
+  width: 90px;
+  top: 130px;
+  right: 60px;
+  padding: 10px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  background-color: #0d7435;
+  cursor: pointer;
+  box-shadow: var(--Box-shadow);
+}
+
+.registerLoginButton:hover {
+  border: 2px solid #0d7435;
+  color: #0d7435;
+  padding: 8px;
+  background: rgba(255, 255, 255, 0.5);
+}

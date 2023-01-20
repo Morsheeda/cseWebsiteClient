@@ -1,0 +1,256 @@
+.settings {
+  display: flex;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.settingsWrapper {
+  flex: 9;
+  padding: 20px;
+  margin: 20px 20px 20px 50px;
+  border-radius: 5px;
+  box-shadow: var(--Box-shadow);
+  background-color: #ffffff;
+}
+
+.settingsTitle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid lightgray;
+  box-shadow: 0 2px 4px -2px rgb(0 0 0 / 10%),
+    0 8px 16px -8px rgb(0 0 0 / 10%);
+  margin: 0px -20px 10px -20px;
+}
+
+.settingsUpdateTitle {
+  font-size: 25px;
+  margin-bottom: 10px;
+  color: #7aae3a;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  word-spacing: 5px;
+  font-weight: 500;
+}
+
+.settingsArea {
+  display: flex;
+  flex-direction: row;
+}
+
+.settingsArea>label {
+  font-size: 20px;
+  /* margin-top: 20px; */
+}
+
+.settingsForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.settingsPParea {
+  flex: 4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 10px 0;
+}
+
+.settingsPParea>label {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.settingsPParea>img {
+  width: 40%;
+  aspect-ratio: 1/1.2;
+  border-radius: 2px;
+  object-fit: cover;
+  border: 1px solid #444;
+}
+
+.settingsPPinput {
+  align-self: center;
+}
+
+.settingsPPIcon {
+  width: 40px;
+  height: 40px;
+  padding: 5px 2px 2px 4px;
+  font-size: 25px;
+  border-radius: 50%;
+  background-color: #0d7435;
+  border: 3px solid #00000000;
+  color: white;
+  cursor: pointer;
+  box-shadow: var(--Box-shadow);
+
+  /* width: 25px;
+    height: 25px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 50%;
+    margin-left: 10px;
+    color: white;
+    background-color: lightcoral;
+    cursor: pointer; */
+}
+
+.settingsInfo {
+  flex: 8;
+  display: flex;
+  flex-direction: column;
+}
+
+.settingsPPIcon:hover {
+  color: #0d7435;
+  background-color: white;
+  border: 3px solid #0d7435;
+}
+
+.settingsInfo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.settingInfoItems {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid lightgray;
+}
+
+.settingInfoLabel {
+  flex: 3;
+  font-size: 18px;
+  height: 30px;
+  margin-top: 15px;
+  margin-bottom: -5px;
+  font-weight: 500;
+}
+
+.settingInfoinput {
+  flex: 9;
+  color: #000;
+  font-size: 18px;
+  margin-top: 10px;
+  /* margin-bottom: -5px; */
+  /* height: 30px; */
+  border: none;
+}
+
+.settingInfoItems>input:focus {
+  outline: none;
+}
+
+.settingInfoinputDisabled{
+  background-color: #ffffff;
+  color: #000;
+}
+.settingInfoinputDisabled::placeholder{
+  text-transform: capitalize;
+  color: #000;
+}
+
+.settingsPPButton:focus {
+  outline-style: none;
+}
+
+.settingsForm>label {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.settingsPPInput {
+  width: 30%;
+}
+
+.settingsForm>input {
+  color: gray;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 30px;
+  border: none;
+  border-bottom: 1px solid lightgray;
+}
+
+.settingsSubmitButton {
+  width: 80%;
+  align-self: center;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  color: white;
+  background-color: #0d7435;
+  padding: 10px;
+  margin-top: 30px;
+  cursor: pointer;
+  box-shadow: var(--Box-shadow);
+}
+
+.settingsSubmitButton:hover {
+  color: #0d7435;
+  background-color: white;
+  padding: 8px;
+  border: 2px solid #0d7435;
+}
+
+.sidebarInSettings {
+  /* margin-right: 50px; */
+  flex: 3;
+  padding-right: 40px;
+  background-color: #ffffff00;
+}
+
+.insideOfSidebarInSettings {
+  /* position: fixed; */
+  margin-top: 20px;
+  /* height: fit-content; */
+  box-sizing: border-box;
+  background-color: #ffffff00;
+
+}
+
+.settingsSidebar {
+  flex: 3;
+  /* height: 75vh; */
+  padding: 20px 0px;
+  border-radius: 5px;
+  box-shadow: var(--Box-shadow);
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.socialLinkInSettings {
+  box-sizing: border-box;
+  transition: transform 3s ease-in-out;
+  /* overflow: hidden; */
+  /* word-break: break-all; */
+}
+
+.socialLinkInSettings:hover {
+  transform: translateX(calc(-100% + 45px));
+}
+
+.settingsDelete {
+  margin-top: 10px;
+  padding: 8px;
+  color: white;
+  box-shadow: var(--Box-shadow);
+  background-color: red;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.settingsDelete:hover {
+  color: red;
+  background-color: white;
+  padding: 6px;
+  border: 2px solid red;
+}

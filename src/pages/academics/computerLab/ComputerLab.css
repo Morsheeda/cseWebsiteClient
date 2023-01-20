@@ -1,0 +1,19 @@
+.computerLab {
+    margin: 5px 20px 5px 20px;
+}
+
+.computerLabSource {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin: 15px auto;
+    max-width: 100%;
+}
+
+.computerLabSource iframe {
+    border-radius: 5px;
+    margin-top: -330px;
+    height: 3100px;
+    width: 100%;
+}

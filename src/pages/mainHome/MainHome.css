@@ -1,0 +1,431 @@
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 5px;
+    background:  linear-gradient(180deg, #7aae3a, #E66702, #7aae3a);
+}
+
+::-webkit-scrollbar-track:hover {
+    background: linear-gradient(180deg, #7aae3ac4, #e66902ce, #7aae3ac4);
+    ;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #0d7435;
+    border-radius: 50px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    /* background: #a75819; */
+    background: #0d74348e;
+    /* border: 1.5px solid #0d7435; */
+}
+
+.mainHome {
+    margin: 0;
+    padding: 0;
+    width: 95%;
+    margin-left: 2.5%;
+}
+
+.latestNoticeBoard {
+    margin: 70px 0px 0px 8px;
+    width: 99%;
+    height: 40px;
+    font-size: 25px;
+    color: tomato;
+    box-shadow: 1px 1px 20px gray;
+    border-radius: 5px;
+    display: flex;
+    background-color: white;
+}
+.allNoticeButton{
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: #E66702;
+    color: wheat ;
+    width: 10%;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+.allNoticeButton:hover{
+    color: #E66702;
+    /* border-radius: 5px; */
+    background-color: white;
+    border: 1px solid #E66702;
+    transform: scale(1.05);
+}
+
+.mainHomeUpperPart {
+    width: 100%;
+    margin: 10px 10px 0px 10px;
+    display: grid;
+    grid-template-columns: 7fr 5fr;
+    gap: 10px;
+}
+
+.imgSlider {
+    width: 50%;
+    height: 420px;
+    box-shadow: 1px 1px 10px gray;
+}
+
+
+.upperPartRight {
+    box-shadow: 1px 1px 10px gray;
+    border-radius: 5px;
+    height: 932px;
+    width: 97%;
+    overflow: hidden;
+}
+
+
+.homeBlogSection {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.homeBlogSection h3 {
+    margin-top: 20px;
+    color: #7aae3a;
+    display: block;
+    padding-bottom: 5px;
+    background-image: linear-gradient(90deg, #7aae3a, #E66702, #7aae3a);
+    background-position: left bottom;
+    background-size: 100% 2px;
+    background-repeat: no-repeat;
+}
+
+
+/* 
+.blogItemOnHome {
+    display: grid;
+    grid-template-columns: 4fr 8fr;
+    gap: 5px;
+    cursor: pointer;
+    align-items: center;
+    margin: 10px;
+    padding-top: 10px;
+    transition: transform 0.6s ;
+}
+
+.blogItemOnHome:hover {
+    background-color: #7aae3a;
+    border-radius: 5px;
+    color: white;
+    transform: scale(1.05);
+}
+
+.blogItemOnHome:hover .blogItemTxt h5 {
+    color:black;
+}
+.blogItemOnHome:hover .blogItemImg img {
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
+.blogItemImg img {
+    width: 150px;
+    height: 80px;
+    border-radius: 5px;
+}
+
+.blogItemTxt {
+    text-align: left;
+    padding: 0px 20px 0px 5px;
+
+}
+
+.blogItemTxt h5 {
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: #7aae3a;
+}
+
+.blogItemTxt p {
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    text-align: justify;
+} */
+
+.departmentHead{
+    margin-top: 15px;
+    padding: 10px;
+    box-shadow: 1px 1px 10px gray;
+    border-radius: 5px;
+    width: 100%;
+    height: 500px;
+}
+
+.departmentHeadTitle {
+    display: flex;
+    gap: 20px;
+    justify-content: left;
+}
+
+.departmentHeadImg {
+    flex: 6;
+    overflow: hidden;
+    /* border-radius: 50%; */
+    border-radius: 2%;
+    box-shadow: 1px 1px 5px gray;
+}
+
+.departmentHeadImg img {
+    margin: 5px;
+    width: 95%;
+    border-radius: 5px;
+    transform: scale(1.1);
+    transition: transform 3s;
+}
+
+.departmentHeadImg img:hover{
+    transform: scale(1.3);
+}
+
+.departmentHeadDesig {
+    flex: 16;
+    bottom: 0;
+    margin-top: 90px;
+}
+
+.departmentHeadDesig h3 {
+    font-size: 30px;
+    font-weight: 600;
+    color: #7aae3a;
+}
+
+.departmentHeadDesig h4 {
+    font-size: 20px;
+    color: #444;
+}
+
+.departmentHeadDesig h5 {
+    font-size: 16px;
+    color: #444;
+}
+
+.departmentHeadMsg p {
+    margin: 30px 15px 0px 15px;
+    color: #3f3f3f;
+    font-size: 16px;
+    text-align: justify;
+    line-height: 25px;
+}
+
+.departmentHeadMsg p::first-letter {
+    margin-left: 20px;
+    font-size: 25px;
+    font-weight: 600;
+    color: #7aae3a;
+}
+
+.dean {
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    height: 470px;
+}
+
+
+.deanTitle {
+    display: flex;
+    gap: 20px;
+    justify-content: left;
+}
+
+.deanImg {
+    flex: 4;
+    width: 500px;
+    overflow: hidden;
+    /* border-radius: 50%; */
+    border-radius: 2%;
+    box-shadow: 1px 1px 5px gray;
+}
+
+.deanImg img {
+    margin: 5px;
+    width: 100%;
+    border-radius: 5px;
+    aspect-ratio: 1.75/1;
+    transform: scale(1.1);
+    transition: transform 3s;
+}
+
+.deanImg img:hover{
+    transform: scale(1.3);
+}
+
+.deanDesig {
+    flex: 8;
+    margin-top: 110px;
+}
+
+.deanDesig h3 {
+    font-size: 30px;
+    font-weight: 600;
+    color: #7aae3a;
+}
+
+.deanDesig h3 span{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.deanDesig h4 {
+    font-size: 20px;
+    color: #444;
+}
+
+.deanDesig h4 span {
+    font-size: 16px;
+}
+
+.deanDesig h5 {
+    font-size: 20px;
+    color: #444;
+}
+
+.deanMsg p {
+    margin: 30px 15px 0px 15px;
+    color: #3f3f3f;
+    font-size: 16px;
+    text-align: justify;
+    line-height: 25px;
+}
+
+.deanMsg p::first-letter {
+    margin-left: 20px;
+    font-size: 25px;
+    font-weight: 600;
+    color: #7aae3a;
+}
+
+.mainHomeMiddlePart, .mainHomeLowerPart {
+    width: 98.6% !important;
+    margin: 10px 20px 10px 10px;
+    /* padding-bottom: 1px; */
+    box-shadow: 1px 1px 10px gray;
+    border-radius: 5px;
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.mainHomeLowerPartTitle {
+    margin: 10px 0px 10px 20px;
+    padding: 30px 0px 10px 20px;
+    color: #7aae3a;
+    background-image: linear-gradient(90deg, #7aae3a, #E66702, #7aae3a);
+    background-position: left bottom;
+    background-position-x: 20px;
+    background-size: 94% 2px;
+    background-repeat: no-repeat;
+    font-size: 25px;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+.mainHomeLowerPartDescription {
+    margin: 10px 30px 20px 20px;
+    padding: 10px 20px 20px 25px;
+    color: #3f3f3f;
+    font-size: 17px;
+    text-align: justify;
+    line-height: 28px;
+    padding-bottom: 10px;
+}
+
+.mainHomeLowerPart p::first-letter {
+    margin-left: 20px;
+    font-size: 25px;
+    color: #7aae3a;
+    font-weight: 600;
+}
+
+
+
+.jobCardContainer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-left: 25px;
+    margin-bottom: 20px;
+}
+
+.jobCard{
+    box-shadow: 0 2px 4px #7aae3a, 0 8px 16px #7aae3a;
+    width: 380px;
+    height: 450px;
+    padding: 20px;
+    margin-top: 10px;
+    border-radius: 8px;
+    transition: transform .8s;
+}
+
+.jobCard:hover{
+    box-shadow: 0 5px 10px #7aae3a, 0 8px 16px #7aae3a;
+    transform: rotate(5deg);
+}
+
+.jobCardTitle{
+    color: #7aae3a;
+    font-size: 23px;
+    text-transform: capitalize;
+    font-weight: 600;
+    text-align: center;
+}
+
+.jobCardDescription{
+    margin: 5px;
+    color: #3f3f3f;
+    font-size: 17px;
+    text-align: justify;
+    line-height: 28px;
+    padding-bottom: 10px;
+}
+
+.mainHomeSourceContainer {
+    margin: 5px 20px 0px 20px;
+}
+
+.mainHomeSource {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin: 15px auto;
+    max-width: 100%;
+}
+
+.mainHomeSource iframe {
+    border-radius: 5px;
+    margin-top: -370px;
+    height: 5250px;
+    width: 100%;
+    transform: scale(0.95)
+}
+
+/* .mainHomeSource iframe  h2 {
+    
+} */
+
+/* .ob-is-breaking-bad .elementor-section .elementor-top-section .elementor-element .elementor-element-108dde0 .elementor-section-boxed .elementor-section-height-default .elementor-section-height-default {
+    display: none;
+} */
+
+/* .mainHomeSource iframe.elementor-location-header{
+    display: none !important;
+} */

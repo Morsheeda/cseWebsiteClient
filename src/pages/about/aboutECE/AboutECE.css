@@ -1,0 +1,42 @@
+.aboutECE {
+    margin: 5px 20px 5px 20px;
+}
+
+.aboutCSE{
+    width: 98.6% !important;
+    margin: 10px 20px 10px 10px;
+    padding: 20px 10px 10px 20px;
+    box-shadow: 1px 1px 10px gray;
+    border-radius: 5px;
+}
+
+.aboutCSEtitle {
+    margin: 10px 0px 10px 20px;
+    padding: 10px 0px 10px 20px;
+    color: #7aae3a;
+    background-image: linear-gradient(90deg, #7aae3a, #E66702, #7aae3a);
+    background-position: left bottom;
+    background-position-x: 20px;
+    background-size: 94% 2px;
+    background-repeat: no-repeat;
+    font-size: 30px;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+.aboutCSEdesc {
+    margin: 10px 30px 20px 20px;
+    padding: 10px 20px 20px 25px;
+    color: #3f3f3f;
+    font-size: 17px;
+    text-align: justify;
+    line-height: 28px;
+    padding-bottom: 10px;
+}
+
+.aboutCSEdesc::first-letter {
+    margin-left: 20px;
+    font-size: 25px;
+    color: #7aae3a;
+    font-weight: 600;
+}

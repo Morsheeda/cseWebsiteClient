@@ -1,0 +1,59 @@
+.aboutIST {
+    margin: 5px 20px 5px 20px;
+}
+
+.aboutISTSource {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin: 15px auto;
+    max-width: 100%;
+}
+
+.source-1-container{
+    margin: 5px 20px 5px 20px;
+    width: 70%;
+    margin: auto;
+}
+
+.source-1 iframe {
+    border-radius: 5px;
+    margin-top: -430px;
+    height: 1100px;
+    width: 100%;
+}
+
+.source-2-container{
+    margin: 5px 20px 5px 20px;
+    width: 80%;
+    margin: auto;
+}
+.source-2 iframe {
+    border-radius: 5px;
+    margin-top: -430px;
+    height: 1100px;
+    width: 100%;
+}
+.source-3-container{
+    margin: 5px 20px 5px 20px;
+    width: 60%;
+    margin: auto;
+}
+.source-3 iframe {
+    border-radius: 5px;
+    margin-top: -430px;
+    height: 2000px;
+    width: 100%;
+}
+.source-4-container{
+    margin: 5px 20px 5px 20px;
+    width: 70%;
+    margin: auto;
+}
+.source-4 iframe {
+    border-radius: 5px;
+    margin-top: -430px;
+    height: 1700px;
+    width: 100%;
+}

@@ -1,0 +1,22 @@
+.admissionEligibility {
+    margin: 5px 20px 5px 20px;
+    width: 60%;
+    margin: auto;
+}
+
+.admissionEligibilitySource {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin: 15px auto;
+    max-width: 100%;
+}
+
+.admissionEligibilitySource iframe {
+    margin-top: -820px;
+    /* margin-right: -900px; */
+    /* margin-bottom: -500px; */
+    height: 1400px;
+    width: 100%;
+}

@@ -1,0 +1,21 @@
+.library {
+    margin: 5px 20px 5px 20px;
+    width: 60%;
+    margin: auto;
+}
+
+.librarySource {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin: 15px auto;
+    max-width: 100%;
+}
+
+.librarySource iframe {
+    border-radius: 5px;
+    margin-top: -400px;
+    height: 1600px;
+    width: 100%;
+}
